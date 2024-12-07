@@ -37,10 +37,12 @@ Install dependencies:
 bash
 Copy code
 pip install -r requirements.txt
+
 Run the notebook:
 Open the Jupyter Notebook file in your preferred environment (e.g., Google Colab or Jupyter Notebook).
 Train the model or load a pre-trained model.
 Upload your images for classification and view the predictions.
+
 🖥️ Output
 Uploaded images are displayed alongside their predicted labels.
 Real-time model performance visualization via loss and accuracy plots.
