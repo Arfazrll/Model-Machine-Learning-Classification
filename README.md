@@ -1,48 +1,63 @@
 # 🖼️ Image Classification with Deep Learning
 
-
 This project demonstrates an end-to-end workflow for building, training, and deploying a deep learning model to classify images. The focus is on creating a user-friendly interface for uploading images and obtaining predictions using a trained model.
 
-✨ Features
-Model Training & Visualization:
+---
 
-The notebook includes training a convolutional neural network (CNN) for image classification.
-Visualizes training accuracy and loss vs. validation accuracy and loss to monitor performance and identify overfitting or underfitting.
+## ✨ Features
 
-Image Upload & Prediction:
-Users can upload an image using a simple upload widget.
-The uploaded image is resized, normalized, and fed into the model for prediction.
-Displays the uploaded image alongside its predicted class label.
+### 1. **Model Training & Visualization**
+- Train a **Convolutional Neural Network (CNN)** for image classification.
+- Visualize **training accuracy** and **loss** vs. **validation accuracy** and **loss** to monitor performance and identify overfitting or underfitting.
 
-Class Mapping:
-Supports mapping predicted class indices to their respective class names for better interpretability.
+### 2. **Image Upload & Prediction**
+- Upload an image using a simple widget.
+- The uploaded image is resized, normalized, and fed into the model for prediction.
+- Displays the uploaded image alongside its **predicted class label**.
 
-🛠️ Technologies Used
-Python
-TensorFlow/Keras for deep learning model building and training.
-Matplotlib for visualizing training progress.
-NumPy for data manipulation.
-Google Colab or Jupyter Notebook for development and experimentation.
+### 3. **Class Mapping**
+- Supports mapping predicted class indices to their respective **class names** for better interpretability.
 
-📊 Visualization
-The notebook provides training and validation accuracy/loss graphs to help monitor model performance over training epochs.
+---
 
-🚀 How to Use
-Clone this repository:
-bash
-Copy code
+## 🛠️ Technologies Used
+- **Python**
+- **TensorFlow/Keras**: For deep learning model building and training.
+- **Matplotlib**: For visualizing training progress.
+- **NumPy**: For data manipulation.
+- **Google Colab / Jupyter Notebook**: For development and experimentation.
+
+---
+
+## 📊 Visualization
+- The notebook provides **training and validation accuracy/loss graphs** to help monitor model performance over training epochs.
+
+---
+
+## 🚀 How to Use
+
+### 1. Clone this repository
+```bash
 git clone <repository_url>
 cd <repository_folder>
-Install dependencies:
-bash
-Copy code
+```
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Run the notebook:
-Open the Jupyter Notebook file in your preferred environment (e.g., Google Colab or Jupyter Notebook).
-Train the model or load a pre-trained model.
-Upload your images for classification and view the predictions.
+### 3. Run the notebook
+- Open the **Jupyter Notebook** file in your preferred environment (e.g., Google Colab or Jupyter Notebook).
+- Train the model or load a pre-trained model.
+- Upload your images for classification and view the predictions.
 
-🖥️ Output
-Uploaded images are displayed alongside their predicted labels.
-Real-time model performance visualization via loss and accuracy plots.
+---
+
+## 🖥️ Output
+- Uploaded images are displayed alongside their **predicted labels**.
+- Real-time model performance visualization via **loss** and **accuracy** plots.
+
+---
+
+This project offers a simple and interactive way to explore image classification using deep learning techniques. You can easily upload your own images and obtain predictions based on the trained model. The visualizations help monitor model performance and identify areas for improvement.
