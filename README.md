@@ -36,18 +36,7 @@ This project demonstrates an end-to-end workflow for building, training, and dep
 
 ## 🚀 How to Use
 
-### 1. Clone this repository
-```bash
-git clone <repository_url>
-cd <repository_folder>
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the notebook
+### Run the notebook
 - Open the **Jupyter Notebook** file in your preferred environment (e.g., Google Colab or Jupyter Notebook).
 - Train the model or load a pre-trained model.
 - Upload your images for classification and view the predictions.
